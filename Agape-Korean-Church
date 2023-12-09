@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Agape Church aims to restore the essence of the Early Church and pursues the dream of a healthy Christian community.">
+    <title> Agape Korean Church</title>
+    <link rel="stylesheet" type="text/css" href="https://nicolexjxsmith.github.io
+/style.css">
+    <script src="https://kit.fontawesome.com/be05bf83c1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <!--Website Header-->
+   <header>
+    <div class="header">
+        <div class="navbar">
+        <nav>
+            <title>Agape Korean Church</title>
+          <nav class="w3-bar w3-green">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="introduction.html" class="w3-button w3-bar-item">Introduction</a>
+  <a href="worship.html" class="w3-button w3-bar-item">Worship</a>
+  <a href="#education" class="w3-button w3-bar-item">Education</a>
+  <a href="#news" class="w3-button w3-bar-item">News</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact Us</a>
+        </nav>
+        <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+    </div>
+    </div>
+    </header>
+<!--Buttons for Shop & Booking-->
+    <main>
+        <h1> Agape Korean Church </h1>
+                <h2> Vision Statement</h2>
+                <p> Lord, that You would bless me and enlarge my territory! (1 Chr. 4:10) </p>
+            </div>
+    </main>
+            <div class="row">
+                <h4>AGAPE CHURCH, Korean Presbyterian Church in America</h4>
+        </div>
+    </section>
+    <!--Buttons for Artist-->
+    <section class="Team">
+        <div class=" row">
+            <div class="row">
+                <h1> Welcome to Agape Church and God Bless You!
+We welcome and bless you to Sarang Church.</h1>
+                <button type="button" onclick="document.location='MoreInformation.html'" alt="Button for more Artist Information">Read More</button>
+            </div>
+            <div class="col-image">
+                <div class="image-gallery">
+                    <img src="img_prayer.jpg" alt="Prayer">
+                    <img src="img_church.jpg" alt="Cross">
+                    <img src="img_cross.jpg" alt="Church">
+          </div>
+            </div>
+        </div>
+    </section>
+<footer>
+        <a href="#"> Home</a>
+        <a href="#"> Terms &amp; Conditions</a>
+        <a href="#"> Privacy Policy </a>
+        <a href="#"> Accessibility Statement</a>
+        <p>© 2023 Agape Korean Church <br> All Rights Reserved.</p>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px"; 
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px"; 
+            }
+        }
+    </script>
+</body>
+</html>
